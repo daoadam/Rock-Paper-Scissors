@@ -1,0 +1,30 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.rock,.paper,.scissors{
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: antiquewhite;
+}
+
+.rock:hover,.paper:hover,.scissors:hover{
+    background-color: aquamarine;
+    transform: scale(1.05);
+}
+
+.outcome{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
